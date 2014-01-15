@@ -1,0 +1,44 @@
+*help-random.txt*       Random :help
+
+help-random                                                      *help-random*
+
+INTRODUCTION                    |help-random-introduction|
+INSTALLATION                    |help-random-installation|
+COMMANDS                        |help-random-commands|
+ABOUT                           |help-random-author|
+
+=============================================================================
+INTRODUCTION                                        *help-random-introduction*
+
+It is well known that to read |:help| again and again is the best way for Vim
+newbies. But what is to start with? The Vim help is so vast, that the
+beginners often are in lost.
+
+This plugin helps this problem. |:HelpRandom|, the only command this plugin
+provides, opens a help topic randomly chosen for you. If you don't know what
+topic to be read, simply use this to get a fresh knowledge. This is not only
+helpful for beginners, but also for skilled vimmers who want a new discovery
+about Vim.
+
+=============================================================================
+INSTALLATION                                        *help-random-installation*
+
+Using Vundle <https://github.com/gmarik/vundle>:
+
+>
+        Bundle 'motemen/vim-help-random'
+
+=============================================================================
+COMMANDS                                                *help-random-commands*
+
+                                                                 *:HelpRandom*
+:HelpRandom
+                        Opens a help topic randomly.
+
+==============================================================================
+ABOUT                                                     *help-random-author*
+
+Author:  motemen <motemen@gmail.com>
+License: MIT
+
+ vim:tw=78:ts=8:ft=help:norl:
